@@ -14,6 +14,8 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 	t.ExecuteTemplate(w, "index", nil)
 }
 
+// ENTER point
+
 func main() {
 	fmt.Println("listening on port :4000")
 
